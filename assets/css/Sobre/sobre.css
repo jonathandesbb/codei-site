@@ -18,6 +18,16 @@
    height: 230px;
 }   
 
+
+@media screen and (min-width: 450px) {
+    #sobre img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+}
+
 @media screen and (min-width:768px){
     .sobreDescricao p{
      font-size: 14px;
@@ -30,12 +40,13 @@
         margin-top: -97px;
     }
 
+
     .descricao{
     width: 100%;
     }
 
     #sobre img{
-    width: 40%;    
+    width: 30%;    
     }
     
     .descricao h2{
@@ -47,6 +58,10 @@
     }
 
 }
+
+
+
+
 
 @media screen and (min-width: 1080px) {
     
