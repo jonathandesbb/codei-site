@@ -1,0 +1,161 @@
+#banner {
+    padding-top: 5rem;
+}
+
+h1 {
+    font-family: 'SpongyThin';
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.bannerBoxButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.4rem;
+    margin-top: 1.4rem;
+}
+
+.bannerBoxButtons a {
+    color: var(--cor-branco);
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.descricao p {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.astronautaDesktop {
+    display: none;
+}
+
+
+
+.bannerBackgroundMobile {
+    background-image: url(../../imgs/imgnova.svg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bannerBackgroundMobile img {
+    width: 225px;
+    margin-left: 5rem;
+    margin-bottom:-3px;
+}
+
+@media screen and (min-width:450px){
+    .bannerBoxButtons{
+        padding: 0.5rem 4rem;
+    }
+    .bannerBackgroundMobile img{
+    margin-left: 11rem;
+}
+
+.bannerBackgroundMobile img {
+    margin: 0 auto;
+    display: flex;
+}
+
+
+}
+
+@media screen and (min-width:600px){
+    .bannerBoxButtons{
+        padding: 0.5rem 7rem;
+    }
+    .bannerBackgroundMobile img{
+    margin-left: 18rem;
+}
+
+
+}
+
+@media screen and (min-width:768px){
+    #banner {
+        padding-top: 0rem;
+    }
+    .bannerBackgroundMobile{
+        display: none;
+    }
+
+    .bannerBackgroundDesktop{
+        display: flex;
+    }
+
+    .astronautaDesktop{
+        width: 45%;
+        display: flex;
+        margin-top: 4.2rem;
+    }
+
+
+    .bannerBackgroundDesktop{
+        display: flex;
+        background-image: url(../../imgs/imgnova.svg);
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: 100%;
+    }   
+    
+    h1{
+    font-size: 1rem;
+    
+    }
+    .descricao{
+    width: 250px;  
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .descricao p{
+        margin-top: 0.5rem;
+        text-align: left;
+        width: 100%;
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+    .descricao h1{
+        margin-top: 2rem;
+        text-align: left;
+        line-height: 1.5rem;
+    }
+
+    .bannerBoxButtons {
+        padding: 0;
+        justify-content: initial;
+        gap: 20px;
+       
+    }
+    
+    .bannerBoxButtons a {
+        font-size: 0.8rem;
+    }
+    }
+
+
+@media screen and (min-width: 1080px) {
+    .bannerBackgroundDesktop {
+        background-size: 50%;
+
+    }
+
+   .astronautaDesktop{
+    width: 48%;
+   }
+
+   .descricao h1 {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+   }
+
+   .descricao p {
+    width: 80%;
+   }
+}

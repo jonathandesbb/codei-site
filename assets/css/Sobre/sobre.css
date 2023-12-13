@@ -1,0 +1,63 @@
+.sobreDescricao p:first-child{
+    margin-bottom: 1.25rem;
+    margin-top: 0.8rem;  
+}
+
+#sobre img{
+    width: 100%;
+    margin-top: 1.25rem;
+    
+}
+
+
+.sobreBackground{
+   background-image: url(../../imgs/mundonovo.svg);
+   background-size: cover;
+   background-position: bottom center;
+   background-repeat: no-repeat;
+   height: 230px;
+}   
+
+@media screen and (min-width:768px){
+    .sobreDescricao p{
+     font-size: 14px;
+     width: 100%;
+    }
+
+    .sobreBackground {
+        background-size: 100%;
+        height:14.375rem;
+        margin-top: -97px;
+    }
+
+    .descricao{
+    width: 100%;
+    }
+
+    #sobre img{
+    width: 40%;    
+    }
+    
+    .descricao h2{
+        text-align: left;
+    }
+    
+    .tituloSegundarioAfter{
+        align-items: left;
+    }
+
+}
+
+@media screen and (min-width: 1080px) {
+    
+    .sobreBackground {
+        background-size: 50%;
+        margin-top: 0;
+        background-position: top;
+        }
+
+    #sobre img{
+        width: 30%; 
+    }
+   
+     }

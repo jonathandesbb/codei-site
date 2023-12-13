@@ -1,0 +1,175 @@
+#portfolio {
+    background: linear-gradient(to bottom, #000000, rgb(12, 13, 39) 100%, #000000 100%);
+}
+
+    .portfolioContainer {
+        padding: 5rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolioContainer p {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.2rem;
+    }
+
+
+    .portfolioContainer h2{
+        text-align: center;
+        font-size: 1.25rem;
+        font-family: 'Roboto';
+        font-weight: 50rem;
+        
+    }
+    .portfolioContainer h2::after{
+        content: '';
+        display: block;
+        margin-top: 1rem;
+        margin: 0 auto;
+        width: 78px;
+        margin-bottom: 1rem;
+        margin-top: 0.2rem;
+        height: 2px;
+        background-color: var(--cor-roxo);
+    }
+     
+
+    .containerCardPortfolio {
+        margin-top: 1rem;
+        display: flex;
+        gap: 8px;
+        overflow: hidden;
+        width: 500%; /* Ajuste a largura conforme o número de imagens (5 imagens = 500%) */
+        animation: slide 20s linear infinite; /
+    }
+    
+    .portfolioCardBox {
+        height: 180px;
+        position: relative;
+        width: 100%; 
+        overflow: hidden; 
+    }
+    
+    .cardPortfolio img {
+        width: 100px;
+    }
+    
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(-150px);
+        }
+    }
+
+
+@media screen and (min-width: 500px) {
+    .portfolioCardBox {
+        height: 220px;
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(-50px);
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+   
+    .portfolioContainer {
+        padding: 5rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolioContainer p {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.2rem;
+    }
+
+
+    .portfolioContainer h2{
+        text-align: center;
+        font-size: 1.25rem;
+        font-family: 'Roboto';
+        font-weight: 50rem;
+        
+    }
+    .portfolioContainer h2::after{
+        content: '';
+        display: block;
+        margin-top: 1rem;
+        margin: 0 auto;
+        width: 78px;
+        margin-bottom: 1rem;
+        margin-top: 0.2rem;
+        height: 2px;
+        background-color: var(--cor-roxo);
+    }
+
+    .portfolioCardBox {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .containerCardPortfolio {
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .cardPortfolio img {
+        width: 140px;
+    }
+
+
+     .portfolioCardBox {
+        height: 300px;
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(-100px);
+        }
+    }
+}
+     
+
+@media screen and (min-width: 1080px){
+    
+
+    .cardPortfolio img {
+        width: 100%;
+    }
+
+    .portfolioCardBox {
+        height: 100%;
+    }
+
+    
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(-50px);
+        }
+    }
+}
