@@ -131,7 +131,7 @@
     }
 
     .cardPortfolio img {
-        width: 140px;
+        width: 150px;
     }
 
 
@@ -155,7 +155,8 @@
     
 
     .cardPortfolio img {
-        width: 100%;
+        width: 195px;
+        height: 100%;
     }
 
     .portfolioCardBox {

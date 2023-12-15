@@ -30,7 +30,10 @@
 
 .logoRedeSocial img{
 
-    width: 2.5rem
+    width: 2.5rem;
+    right: 100%;
+  
+    
     
 }
 .faixaRedeSocial{
@@ -91,6 +94,7 @@
     }
     .logoFooter img{
         width: 50%;    
+       
         
      }
     
@@ -104,10 +108,12 @@
 
     .logoRedeSocial img{
       width:30px;
+      right: 100%;
       }
 
     .logoRedeSocial img:nth-child(2){
         width:2rem;
+        right: 100%;
       }
 
     .faixaRedeSocial{
@@ -124,11 +130,12 @@
 
     .logoRedeSocial img:nth-child(2){
         width:2rem;
+        right: 100%;
       }
     
     .logoRedeSocial img{
         width:2rem;
-        
+        right: 100%;
         }
     
     .logoFooter img{
